@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Index of Various CSS Layout Templates</title>
+    <style type="text/css" rel="stylesheet">
+      * {
+        margin: 0 auto;
+        padding: 0 auto;
+      }
+      a:link, a:active, a:hover, a:visited {
+        color: blue; background-color:transparent; text-decoration:none
+      }
+      ul.links > li > a {
+        text-decoration: none;
+      }
+      ul.links > li {
+        display: inline;
+      }
+      h3 {
+        text-align: center;
+        margin: 5px;
+      }
+      a > div {
+        width: 2em;
+        border: 2px solid;
+        border-radius: 25px;
+        margin: 2px auto;
+      }
+      /*ul > a > div > li {
+        display: inline;
+      }*/
+      li {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h3>Page Navigation</h3>
+      <ul class="links">
+        <a href="1.html"><div><li>1</li></div></a>
+        <a href="2.html"><div><li>2</li></div></a>
+        <a href="3.html"><div><li>3</li></div></a>
+      </ul>
+    </div>
+  </body>
+</html>

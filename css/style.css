@@ -1,0 +1,208 @@
+/*nav bar for all*/
+div#nav {
+  float: left;
+  width: 10em;
+  height: 10em;
+  border: 1px solid black;
+  margin: 3px;
+  padding: 3px;
+}
+ul.menu > li > a {
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+}
+a:link, a:active, a:hover, a:visited {
+  color: blue; background-color:transparent; text-decoration:none
+}
+
+/* First Page CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div#pg1main {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 50em;
+}
+div.pg1row1 {
+  width: 600px;
+  border: 1px solid black;
+  height: 10em;
+}
+div.pg1row2 {
+  width: 600px;
+  border: 1px solid black;
+  height: 30em;
+  display: flex;
+}
+div.pg1row2col1 {
+  width: 70%;
+  height: 30em;
+  border: 1px solid black;
+}
+div.pg1row2col2 {
+  width: 30%;
+  height: 30em;
+  border: 1px solid black;
+  display: flex;
+}
+div.pg1r2c1-sub1 {
+  width: auto;
+  height: 20em;
+  border: 1px solid black;
+}
+div.pg1r2c1-sub2 {
+  width: auto;
+  height: 10em;
+  border: 1px solid black;
+  display: flex;
+}
+div.i {
+  width: 75%;
+  height: 10em;
+  border: 1px solid black;
+}
+div.ii {
+  width: 25%;
+  height: 10em;
+  border: 1px solid black;
+}
+div.pg1row3 {
+  width: 600px;
+  border: 1px solid black;
+  height: 10em;
+}
+
+
+/* End of First Page CSS */
+
+/* Second Page CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div#pg2main {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 50em;
+}
+div.pg2row1 {
+  height: 10em;
+  border: 1px solid black;
+  width: 600px;
+}
+div.pg2row2 {
+  height: 30em;
+  border: 1px solid black;
+  width: 600px;
+}
+div.pg2row2col1 {
+  width: 30%;
+  border: 1px solid black;
+  height: 30em;
+  float: left;
+}
+div.pg2row2col2 {
+  width: 70%;
+  border: 1px solid black;
+  height: 30em;
+  float: left;
+}
+div.pg2r2c2sub1 {
+  width: 420px;
+  height: 20em;
+  border: 1px solid black;
+}
+div.pg2r2c2sub2 {
+  width: 420px;
+  height: 10em;
+  border: 1px solid black;
+}
+div.pg2row3 {
+  height: 10em;
+  border: 1px solid black;
+  width:600px;
+}
+/* End of Second Page CSS */
+
+/* Third Page CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div#pg3main {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 50em;
+}
+div.pg3row1 {
+  width: 600px;
+  border: 1px solid black;
+  height: 10em;
+}
+div.pg3row2 {
+  width: 600px;
+  border: 1px solid black;
+  height: 5em;
+}
+div.pg3row3 {
+  width: 600px;
+  border: 1px solid black;
+  height: 35em;
+  display: flex;
+}
+div.pg3row3col1 {
+  width: 400px;
+  border: 1px solid black;
+  height: 35em;
+  float: left;
+}
+div.pg3r3c1sub1 {
+  width: 400px;
+  border: 1px solid black;
+  height: 25em;
+}
+div.pg3r3c1sub11 {
+  width: 175px;
+  border: 1px solid black;
+  height: 10em;
+}
+div.pg3r3c1sub2 {
+  width: 400px;
+  border: 1px solid black;
+  height: 10em;
+}
+div.pg3row3col2 {
+  width: 200px;
+  border: 1px solid black;
+  height: 35em;
+  float: left;
+}
+div.pg3r3c2sub1 {
+  width: 200px;
+  height: 11.6666em;
+  border: 1px solid black;
+  float: left;
+}
+div.pg3r3c2sub2 {
+  width: 200px;
+  height: 11.6666em;
+  border: 1px solid black;
+  float: left;
+}
+div.pg3r3c2sub3 {
+  width: 200px;
+  height: 11.6668em;
+  border: 1px solid black;
+  float: left;
+}
+/* End of Third Page CSS */
